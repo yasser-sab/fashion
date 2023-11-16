@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fashion</title>
+	<style type="text/css">
+
+		*,*::before,*:after{
+			box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			-o-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-ms-box-sizing: border-box;
+		}
+		body{
+			padding: 0;
+			margin: 0;
+			background-color: #e4e4e4;
+			font-family: sans-serif;
+			/*perspective: 1000px*/
+			text-transform: capitalize;
+		}
+		.large-container{
+			width: 60%;
+			margin: 0 auto;
+		}
+		.mini-container{
+			width: 90%;
+			margin: 0 auto;
+		}
+		a{
+			display: block;
+			text-decoration: none;
+			color:#fff;
+			background-color: brown;
+			transform: skew(-10deg);
+			text-align: center;
+		}
+		img{
+			object-fit: cover;
+			width:90%;
+			height: 80%;
+			box-shadow: 5px 5px 0px brown
+		}
+		header{
+			font-size: 0;
+		}
+		header>div{
+			/*background-color: green;*/
+			font-size: 16px;
+			display: inline-block;
+			width: 50%;
+			vertical-align: middle;
+		}
+		header>div:last-child{
+			text-align: right;
+		}
+		header .logo>h1{
+    		font-size: 3em;
+    		margin: 0;
+		}
+		header .logo>i{
+			font-size: 3em;
+		}
+		header .linkes>a{
+			padding: 10px 20px;
+
+		}
+		main{
+			font-size: 0;
+		}
+		main>section article{
+			font-size: 16px;
+			display: inline-block;
+			width: 50%;
+			vertical-align: top;
+			
+		}
+		main>section article:last-child>a{
+			margin-top: 2em;
+			padding: 10px 0;
+		}
+	</style>
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+</head>
+<body>
+
+<!-- <div class="mini-container"> -->
+	<div class="large-container">
+		<header>
+			<div class="logo">
+				<i class="fa fa-tshirt"></i>
+				<h1>fashion style</h1>
+			</div>
+			<div class="linkes">
+				<a href="#">visit us</a>
+			</div>
+		</header>
+		<main>
+			<section>
+				<article>
+					<h2>our new clothing line</h2>
+					<p>view 2020 designs today</p>
+					<img src="http://placehold.it/200x350" alt="clothes">
+				</article>
+				<article>
+					<img src="http://placehold.it/200x350" alt="clothes">
+					<a href="#">shop now</a>
+				</article>
+			</section>
+		</main>
+	</div>
+<!-- </div> -->
+
+</body>
+</html>	
